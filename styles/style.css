@@ -1,0 +1,210 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: lightblue;
+    color: black;
+    overflow: visible;
+}
+
+#canvas-main {
+    background-color: rgb(0, 0, 0);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#game {
+    margin: auto;
+    display: block;
+    font-size: 40px;
+}
+
+#game-play {
+    height: 400px;
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+}
+
+#game-play h1 {
+    color: rgb(0, 0, 0);
+}
+
+#score-text {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+#game .screen {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#game .screen.active {
+    display: block;
+}
+
+#main-menu {
+    padding-top: 1em;
+    cursor: pointer;
+    font-size: 0.75em;
+}
+
+#death-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+
+#pause-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+
+#win-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+
+#settings td {
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 5px;
+    width: 180px;
+    font-size: 26px;
+}
+
+#settings table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#settings .screen {
+    text-align: center;
+}
+
+#settings tr:hover {
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+.selected {
+    background-color: #3d3141;
+}
+
+.selecteds {
+    background-color: #8104a0;
+}
+
+.bindings {
+    font-weight: lighter;
+}
+
+ul.menu {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.menu li {
+    margin: 0.8em 0;
+}
+
+ul.menu li button {
+    font-family: Arial, sans-serif;
+    font-size: 0.6em;
+    color: #CECEF6;
+    width: 10em;
+    height: 1.5em;
+    background: #8104a0;
+    border: 0.1em solid rgb(108, 106, 136);
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
+}
+
+ul.menu li button:hover {
+    background: #6d00a0;
+}
+
+ul.menu li button:active {
+    color: #8104a0;
+    background: #CECEF6;
+}
+
+#game div h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#high-scores ol {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#game div p {
+    font-size: 0.5em;
+}
+
+#about p {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20px;
+}
+
+.grid-item {
+    background-color: rgba(37, 37, 37, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 70px;
+    margin: 10px;
+    text-align: center;
+}
+
+.unlocked {
+    color: #6d00a0;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+
+.unlocked:hover {
+    background-color: rgba(255, 162, 240, 0.8);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+}
+
+.toggles {
+    font-size: 16px;
+}

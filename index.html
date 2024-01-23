@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tower Defense</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body oncontextmenu="return false;">
+	<div id="game">
+		<div id="main-menu" class="screen">
+			<h1>Tower Defense</h1>
+			<ul class="menu">
+				<li><button id="id-new-game">New&nbsp;Game</button></li>
+				<li><button id="id-highscore">Highscores</button></li>
+				<li><button id="id-settings">Settings</button></li>
+				<li><button id="id-about">About</button></li>
+			</ul>
+		</div>
+		<div id="level-select" class="screen">
+			<h1>Level Select</h1>
+			<div id="level-grid" class="grid-container">
+			</div>
+			<ul class="menu">
+				<li><button id="id-level-back">Back</button></li>
+			</ul>
+		</div>
+		<div id="highscores" class="screen">
+			<h1>Highscores</h1>
+			<h2 id="level-tag">Level 1</h2>
+			<p id="highscore-text">0</p>
+			<div id="score-grid" class="grid-container">
+			</div>
+			<ul class="menu">
+				<li><button id="id-score-back">Back</button></li>
+			</ul>
+		</div>
+		<div id="game-play" class="screen">
+			<canvas id="canvas-main" width="1200" height="1000"
+				style="width: 59%; height: 100%; background: url('assets/background.jpg')"></canvas>
+			<ul id="pause-menu" class="menu">
+				<h1>Paused</h1>
+				<li><button id="id-resume">Resume&nbsp;Game</button></li>
+				<li><button id="id-pause-back">Level&nbsp;Select</button></li>
+				<li><button id="id-pause-main">Main&nbsp;Menu</button></li>
+			</ul>
+			<ul id="death-menu" class="menu">
+				<h1>Game Over</h1>
+				<li><button id="id-retry">Retry</button></li>
+				<li><button id="id-death-back">Main&nbsp;Menu</button></li>
+			</ul>
+			<ul id="win-menu" class="menu">
+				<h1>You Win!</h1>
+				<li><button id="id-win-back">Level&nbsp;Select</button></li>
+				<li><button id="id-win-main">Main&nbsp;Menu</button></li>
+			</ul>
+		</div>
+		<div id="settings" class="screen">
+			<h1>Settings</h1>
+			<div class="slidecontainer">
+				<h2>Volume</h2>
+				<input type="range" min="0" max="100" class="slider" id="volume">
+			</div>
+			<div class="controls-table">
+				<h2>Controls</h2>
+				<table id="controls">
+				</table>
+			</div>
+			<div id="grid-box">
+				<p>Show Grid<input type="checkbox" id="grid" class="checkbox"></p>
+			</div>
+			<div id="path-box">
+				<p>Show Path<input type="checkbox" id="path" class="checkbox"></p>
+			</div>
+			<ul class="menu">
+				<li><button id="id-settings-back">Back</button></li>
+			</ul>
+		</div>
+		<div id="about" class="screen">
+			<h1>About</h1>
+			<h2>Developed by</h2>
+			<p>Jontay Reaves and Noah Hammons</p>
+			<h2>Artwork by</h2>
+			<p>Jontay Reaves and Noah Hammons</p>
+			<h2>Sounds by</h2>
+			<p>Jontay Reaves and Noah Hammons</p>
+			<h2>Code Base Provided by</h2>
+			<p>Dr. James Dean Mathias</p>
+			<ul class="menu">
+				<li><button id="id-about-back">Back</button></li>
+			</ul>
+		</div>
+	</div>
+	<script data-main="scripts/loader" src="scripts/require.js"></script>
+</body>
+
+</html>

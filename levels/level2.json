@@ -1,0 +1,62 @@
+{
+    "id": "level2",
+    "unlocked": true,
+    "board": {"size":15, "gap":3},
+    "towerCount": 5,
+    "info": {"coins": 550, "lives": 50},
+    "waveData":[
+        [
+            ["Spider", 5, "W"],
+            ["Spider", 5, "N"]
+        ],
+        [
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"]
+        ],
+        [
+            ["Drone", 5, "W"]
+        ],
+        [ 
+            ["Drone", 5, "W"],
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 5, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Drone", 5, "N"]     
+        ],
+        [ 
+            ["Drone", 5, "W"],
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 5, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Drone", 5, "N"]     
+        ],
+        [ 
+            ["Spider", 10, "N"],
+            ["Spider", 10, "W"],
+            ["Drone", 15, "W"],
+            ["Drone", 15, "W"],  
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 15, "N"],
+            ["Spider", 10, "N"],
+            ["Spider", 10, "W"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Drone", 15, "N"]     
+        ]
+    ]
+}

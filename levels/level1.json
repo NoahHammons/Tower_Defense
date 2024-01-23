@@ -1,0 +1,26 @@
+{
+    "id": "level1",
+    "unlocked": true,
+    "board": {"size":11, "gap":3},
+    "towerCount": 2,
+    "info": {"coins": 350, "lives": 50},
+    "waveData":[
+        [
+            ["Spider", 2, "W"]
+            
+        ],
+        [
+            ["Spider", 15, "W"]
+        ],
+        [
+            ["Spider", 10, "W"]
+        ],
+        [
+            ["Spider", 25, "W"]
+        ],
+        [
+            ["Spider", 10, "N"]
+        ]
+        
+    ]
+}

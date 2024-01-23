@@ -1,0 +1,97 @@
+{
+    "id": "level3",
+    "unlocked": true,
+    "board": {"size":17, "gap":5},
+    "towerCount": 8,
+    "info": {"coins": 750, "lives": 50},
+    "waveData":[
+        [
+            ["Spider", 5, "W"],
+            ["Spider", 5, "N"]
+        ],
+        [
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "E"],
+            ["Small_Spider", 5, "S"]
+        ],
+        [
+            ["Drone", 5, "W"]
+        ],
+        [ 
+            ["Drone", 5, "W"],
+            ["Spider", 10, "E"],
+            ["Spider", 10, "S"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 5, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Drone", 5, "N"]     
+        ],
+        [ 
+            ["Drone", 5, "S"],
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 5, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Small_Spider", 5, "S"],
+            ["Small_Spider", 5, "E"],  
+            ["Drone", 5, "E"]     
+        ],
+        [ 
+            ["Spider", 10, "N"],
+            ["Spider", 10, "W"],
+            ["Drone", 15, "W"],
+            ["Drone", 15, "W"],  
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 15, "N"],
+            ["Spider", 10, "N"],
+            ["Spider", 10, "W"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Drone", 15, "N"]     
+        ],
+        [
+            ["Cube", 1, "W"]
+        ],
+        [
+            ["Cube", 1, "W"],    
+            ["Drone", 5, "W"],
+            ["Spider", 10, "E"],
+            ["Spider", 10, "S"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 5, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Drone", 5, "N"] 
+        ],
+        [
+            ["Cube", 1, "W"],
+            ["Spider", 10, "N"],
+            ["Spider", 10, "W"],
+            ["Drone", 15, "W"],
+            ["Drone", 15, "W"],  
+            ["Spider", 10, "W"],
+            ["Spider", 10, "N"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],
+            ["Drone", 15, "N"],
+            ["Spider", 10, "N"],
+            ["Spider", 10, "W"],
+            ["Small_Spider", 5, "W"],
+            ["Small_Spider", 5, "N"],  
+            ["Drone", 15, "N"]  
+        ]
+    ]
+}
